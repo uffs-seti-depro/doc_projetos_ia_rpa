@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IFES Colab - Automação e IA para Instituições Federais</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header e Navegação -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <i class="fas fa-robot"></i>
+                    <span>IFES Colab</span>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#inicio" class="nav-link">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#sobre" class="nav-link">Sobre</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#solucoes" class="nav-link">Soluções <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#chatbots">Assistentes Virtuais</a></li>
+                            <li><a href="#dados">Democratização de Dados</a></li>
+                            <li><a href="#protokols">Protokols.bot</a></li>
+                            <li><a href="#compras">Integrador Compras</a></li>
+                            <li><a href="#orcamento">Planejamento Orçamentário</a></li>
+                            <li><a href="#administrativo">Administrativo.bot</a></li>
+                            <li><a href="#academico">Acadêmico.bot</a></li>
+                            <li><a href="#afd">Automatização AFD</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#beneficios" class="nav-link">Benefícios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#financiamento" class="nav-link">Financiamento</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contato" class="nav-link">Contato</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Seção Hero -->
+    <section id="inicio" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Projeto Colaborativo de <span class="highlight">Automação e IA</span> para as IFES
+                </h1>
+                <p class="hero-description">
+                    Desenvolvendo e compartilhando soluções de RPA e Inteligência Artificial para otimizar processos, 
+                    combater o retrabalho e incorporar inteligência de negócios nas rotinas das Instituições Federais de Ensino Superior.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#solucoes" class="btn btn-primary">Explorar Soluções</a>
+                    <a href="#sobre" class="btn btn-secondary">Saiba Mais</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-graphic">
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-brain"></i>
+                    <i class="fas fa-university"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="sobre" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Sobre o Projeto</h2>
+                <p>Uma iniciativa colaborativa para transformar digitalmente as IFES</p>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                    <h3>Motivação</h3>
+                    <p>Enfrentamos um cenário desafiador: crescente demanda por serviços de excelência contrastando com carência de servidores, excesso de trabalho e sistemas não integrados que comprometem a eficiência e impactam o bem-estar dos servidores.</p>
+                </div>
+                
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-target"></i>
+                    </div>
+                    <h3>Objetivos</h3>
+                    <p>Criar um arsenal de soluções tecnológicas que otimizem fluxos de trabalho, combatam o retrabalho e incorporem inteligência artificial em nossas rotinas, alinhado com a Transformação Digital do Governo Federal.</p>
+                </div>
+                
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Colaboração</h3>
+                    <p>Uma comunidade de software livre com participação ativa dos técnicos de TI de diversas IFES, desenvolvendo e mantendo um portfólio de soluções compartilhadas para gerar ganho de escala e eficiência.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Soluções -->
+    <section id="solucoes" class="solutions">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nossas Soluções</h2>
+                <p>Portfólio completo de automação e inteligência artificial</p>
+            </div>
+
+            <!-- Assistentes Virtuais -->
+            <div id="chatbots" class="solution-item">
+                <div class="solution-content">
+                    <div class="solution-info">
+                        <h3><i class="fas fa-comments"></i> Assistentes Virtuais (Chatbots)</h3>
+                        <p>Soluções inteligentes para atendimento automatizado da comunidade acadêmica e consultas seguras a dados institucionais.</p>
+                        <ul>
+                            <li>Chatbot para dúvidas gerais baseado em IA treinada com dados institucionais</li>
+                            <li>Assistente setorizado para consultas seguras de servidores e discentes</li>
+                            <li>Substituição do atendimento humano em consultas rotineiras</li>
+                        </ul>
+                        <a href="#" class="solution-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="solution-visual">
+                        <i class="fas fa-robot solution-icon"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Democratização de Dados -->
+            <div id="dados" class="solution-item">
+                <div class="solution-content">
+                    <div class="solution-info">
+                        <h3><i class="fas fa-chart-bar"></i> Democratização de Dados</h3>
+                        <p>API.Dados e ferramenta de Business Analytics para autonomia departamental na geração de relatórios e dashboards.</p>
+                        <ul>
+                            <li>API centralizada para acesso a dados institucionais</li>
+                            <li>Ferramenta de Business Analytics self-service</li>
+                            <li>Independência da TI para relatórios e consultas</li>
+                        </ul>
+                        <a href="#" class="solution-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="solution-visual">
+                        <i class="fas fa-database solution-icon"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Protokols.bot -->
+            <div id="protokols" class="solution-item">
+                <div class="solution-content">
+                    <div class="solution-info">
+                        <h3><i class="fas fa-file-alt"></i> Protokols.bot</h3>
+                        <p>Automatizador avançado da gestão documental com funcionalidades completas para criação, tramitação e arquivamento de processos administrativos.</p>
+                        
+                        <div class="functionality-categories">
+                            <div class="category">
+                                <h4><i class="fas fa-plus-circle"></i> Criação e Documentação</h4>
+                                <ul>
+                                    <li>Criação automatizada de processos administrativos</li>
+                                    <li>Criação de documentos a partir de templates personalizáveis</li>
+                                    <li>Geração automática de numeração e protocolos</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="category">
+                                <h4><i class="fas fa-route"></i> Tramitação e Fluxo</h4>
+                                <ul>
+                                    <li>Encaminhamento conforme fluxo do processo por tipo</li>
+                                    <li>Roteamento inteligente baseado em regras</li>
+                                    <li>Controle automático de prazos e notificações</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="category">
+                                <h4><i class="fas fa-users-cog"></i> Gestão de Participantes</h4>
+                                <ul>
+                                    <li>Manutenção de assinantes e interessados</li>
+                                    <li>Controle de permissões e acessos</li>
+                                    <li>Notificações automáticas para envolvidos</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="category">
+                                <h4><i class="fas fa-archive"></i> Arquivamento e Despachos</h4>
+                                <ul>
+                                    <li>Arquivamento automatizado de processos</li>
+                                    <li>Desarquivamento com controle de histórico</li>
+                                    <li>Despachos avulsos e em lote</li>
+                                    <li>Gestão de documentos anexos</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <a href="#" class="solution-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="solution-visual">
+                        <i class="fas fa-file-signature solution-icon"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Integrador Compras-Contratos-Financeiro -->
+            <div id="compras" class="solution-item">
+                <div class="solution-content">
+                    <div class="solution-info">
+                        <h3><i class="fas fa-shopping-cart"></i> Integrador Compras-Contratos-Financeiro</h3>
+                        <p>Automatização completa dos fluxos de compras, licitações, empenhos e gestão de contratos.</p>
+                        <ul>
+                            <li>Planejamento automatizado de compras e requisições</li>
+                            <li>Gestão integrada de licitações e empenhos</li>
+                            <li>Integração SIPAC com sistemas governamentais</li>
+                        </ul>
+                        <a href="#" class="solution-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="solution-visual">
+                        <i class="fas fa-handshake solution-icon"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Planejamento Orçamentário -->
+            <div id="orcamento" class="solution-item">
+                <div class="solution-content">
+                    <div class="solution-info">
+                        <h3><i class="fas fa-calculator"></i> Planejamento e Execução Orçamentária</h3>
+                        <p>Automatização de lançamentos no SIPAC e SIAFI com ferramentas de gestão para diferentes perfis de usuários.</p>
+                        <ul>
+                            <li>Planejamento e execução orçamentária automatizada</li>
+                            <li>Integração com SIPAC e SIAFI Web</li>
+                            <li>Ferramentas específicas para gestores e ordenadores</li>
+                        </ul>
+                        <a href="#" class="solution-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="solution-visual">
+                        <i class="fas fa-coins solution-icon"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Administrativo.bot -->
+            <div id="administrativo" class="solution-item">
+                <div class="solution-content">
+                    <div class="solution-info">
+                        <h3><i class="fas fa-cog"></i> Administrativo.bot</h3>
+                        <p>Automatização de processos complexos e incompletos nos sistemas SIGAdmin, SIPAC e SIGRH com funcionalidades avançadas para gestão administrativa.</p>
+                        
+                        <div class="functionality-categories">
+                            <div class="category">
+                                <h4><i class="fas fa-users"></i> Gestão de Pessoas</h4>
+                                <ul>
+                                    <li>Cadastro automatizado de pessoas físicas e jurídicas</li>
+                                    <li>Integração com bases de dados governamentais</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="category">
+                                <h4><i class="fas fa-box"></i> Gestão Patrimonial</h4>
+                                <ul>
+                                    <li>Reavaliação em lote de bens patrimoniais</li>
+                                    <li>Acautelamento em lote de bens</li>
+                                    <li>Ajuste de bens a partir das divergências de inventário</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="category">
+                                <h4><i class="fas fa-gavel"></i> Licitações e Contratos</h4>
+                                <ul>
+                                    <li>Lançamento automatizado de propostas em editais licitatórios</li>
+                                    <li>Homologação de editais licitatórios</li>
+                                    <li>Geração automática das ATAs SRP</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="category">
+                                <h4><i class="fas fa-calculator"></i> Gestão Financeira</h4>
+                                <ul>
+                                    <li>Registro automatizado de empenhos</li>
+                                    <li>Criação de requisições</li>
+                                    <li>Lançamento de notas fiscais de materiais e serviços</li>
+                                    <li>Solicitação de dotação orçamentária</li>
+                                    <li>Solicitação de empenho</li>
+                                    <li>Solicitação de liquidação</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <a href="#" class="solution-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="solution-visual">
+                        <i class="fas fa-tools solution-icon"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Acadêmico.bot -->
+            <div id="academico" class="solution-item">
+                <div class="solution-content">
+                    <div class="solution-info">
+                        <h3><i class="fas fa-graduation-cap"></i> Acadêmico.bot</h3>
+                        <p>Automatização de processos complexos e incompletos no sistema SIGAA e seus módulos orbitais.</p>
+                        <ul>
+                            <li>Automação de processos acadêmicos no SIGAA</li>
+                            <li>Integração com módulos orbitais</li>
+                            <li>Otimização de fluxos acadêmicos</li>
+                        </ul>
+                        <a href="#" class="solution-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="solution-visual">
+                        <i class="fas fa-user-graduate solution-icon"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Automatização AFD -->
+            <div id="afd" class="solution-item">
+                <div class="solution-content">
+                    <div class="solution-info">
+                        <h3><i class="fas fa-folder-open"></i> Automatização do AFD</h3>
+                        <p>Automatização do Assentamento Digital Funcional a partir de documentos dos sistemas internos e governamentais.</p>
+                        <ul>
+                            <li>Criação automática de assentamentos funcionais</li>
+                            <li>Integração com sistemas internos e governamentais</li>
+                            <li>Digitalização completa do processo</li>
+                        </ul>
+                        <a href="#" class="solution-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="solution-visual">
+                        <i class="fas fa-archive solution-icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Benefícios -->
+    <section id="beneficios" class="benefits">
+        <div class="container">
+            <div class="section-header">
+                <h2>Benefícios Esperados</h2>
+                <p>Impactos tangíveis e estratégicos para as instituições</p>
+            </div>
+            
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-users-cog"></i>
+                    </div>
+                    <h3>Viabilização das Equipes de TI</h3>
+                    <p>Compartilhamento de recursos e soluções para melhor atendimento aos processos institucionais, minimizando impactos da evasão na carreira de TI.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Continuidade dos Processos</h3>
+                    <p>Viabilização da continuidade diante do quadro reduzido de servidores. Processos que levam dias são executados em minutos.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Modernização</h3>
+                    <p>Ferramentas de trabalho modernas, processos mais ágeis e inteligentes, eliminando retrabalho e duplicidade de soluções.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Bem-estar dos Servidores</h3>
+                    <p>Combate à precariedade laboral, reduzindo sobrecarga e estresse, permitindo dedicação a atividades mais estratégicas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Financiamento e Sustentabilidade -->
+    <section id="financiamento" class="financing">
+        <div class="container">
+            <div class="section-header">
+                <h2>Financiamento e Sustentabilidade</h2>
+                <p>Modelo sustentável para continuidade e crescimento do projeto</p>
+            </div>
+            
+            <div class="financing-content">
+                <div class="financing-intro">
+                    <div class="intro-card">
+                        <div class="intro-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h3>Projeto Sustentável</h3>
+                        <p>O projeto foi concebido para ser sustentável, com código de software livre, utilizando recursos humanos estratégicos e diversas fontes de financiamento para garantir sua continuidade e expansão.</p>
+                    </div>
+                </div>
+
+                <div class="financing-grid">
+                    <div class="financing-card">
+                        <div class="card-header">
+                            <i class="fas fa-users"></i>
+                            <h3>Recursos Humanos</h3>
+                        </div>
+                        <div class="card-content">
+                            <ul>
+                                <li><strong>Bolsas para Discentes:</strong> Estudantes da área de TI participando do desenvolvimento</li>
+                                <li><strong>Jornada Complementar:</strong> Bolsas para servidores técnicos conforme legislação vigente</li>
+                                <li><strong>Profissionais de TI:</strong> Analistas e técnicos alocados para desenvolvimento, sustentação e apoio aos usuários</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="financing-card">
+                        <div class="card-header">
+                            <i class="fas fa-building"></i>
+                            <h3>Infraestrutura</h3>
+                        </div>
+                        <div class="card-content">
+                            <ul>
+                                <li><strong>Linhas de Fomento:</strong> Busca por recursos através de editais e programas governamentais</li>
+                                <li><strong>Emendas Parlamentares:</strong> Investimentos em infraestrutura tecnológica</li>
+                                <li><strong>Parcerias Institucionais:</strong> Colaboração entre IFES para otimização de recursos</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="financing-card">
+                        <div class="card-header">
+                            <i class="fas fa-chart-line"></i>
+                            <h3>Expansão Estratégica</h3>
+                        </div>
+                        <div class="card-content">
+                            <ul>
+                                <li><strong>Aumento de IFES:</strong> Maior participação institucional para fortalecer projetos de captação</li>
+                                <li><strong>Escala Nacional:</strong> Ampliação do impacto e relevância do projeto</li>
+                                <li><strong>Visibilidade:</strong> Maior importância para busca de recursos financeiros</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="financing-card">
+                        <div class="card-header">
+                            <i class="fas fa-cogs"></i>
+                            <h3>Governança</h3>
+                        </div>
+                        <div class="card-content">
+                            <ul>
+                                <li><strong>Comunidade de Governança:</strong> Gestão colaborativa das soluções desenvolvidas</li>
+                                <li><strong>Gestão de Demandas:</strong> Priorização e organização das necessidades institucionais</li>
+                                <li><strong>Políticas de Uso:</strong> Definição de diretrizes e mecanismos de apoio aos usuários</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sustainability-highlights">
+                    <div class="highlight-item">
+                        <div class="highlight-icon">
+                            <i class="fas fa-code-branch"></i>
+                        </div>
+                        <div class="highlight-content">
+                            <h4>Software Livre</h4>
+                            <p>Código aberto garantindo transparência, colaboração e sustentabilidade técnica</p>
+                        </div>
+                    </div>
+
+                    <div class="highlight-item">
+                        <div class="highlight-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <div class="highlight-content">
+                            <h4>Colaboração Interinstitucional</h4>
+                            <p>Compartilhamento de recursos e conhecimento entre as IFES participantes</p>
+                        </div>
+                    </div>
+
+                    <div class="highlight-item">
+                        <div class="highlight-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="highlight-content">
+                            <h4>Formação de Talentos</h4>
+                            <p>Capacitação de discentes e servidores em tecnologias emergentes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Entre em Contato</h2>
+                <p>Participe desta iniciativa colaborativa</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Junte-se ao Projeto</h3>
+                    <p>Este é um projeto colaborativo aberto à participação de todas as IFES. Entre em contato para saber como sua instituição pode participar e contribuir.</p>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>seti.depro@uffs.edu.br</span>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>(49) 98855-8025</span>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>(49) 98855-8025</span>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-github"></i>
+                        <span>github.com/ifes-colab</span>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Nome" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="E-mail" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Instituição" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Mensagem" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>IFES Colab</h4>
+                    <p>Projeto Colaborativo de Automação e IA para as Instituições Federais de Ensino Superior.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#solucoes">Soluções</a></li>
+                        <li><a href="#beneficios">Benefícios</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Alinhamento</h4>
+                    <p>Em conformidade com a Transformação Digital do Governo Federal (MGI) e orientações do TCU.</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 IFES Colab. Projeto de código aberto para as Instituições Federais de Ensino Superior.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
